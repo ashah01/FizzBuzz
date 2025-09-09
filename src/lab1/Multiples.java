@@ -19,6 +19,10 @@ public class Multiples {
         return count;
     }
 
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
+
     public static boolean doFizzBuzz(int i, int a, int b) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % a == 0;
